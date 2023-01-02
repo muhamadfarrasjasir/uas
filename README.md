@@ -89,13 +89,13 @@ Hasilnya:
 
 Untuk menghapus data dari sebuah list di Python, Anda dapat menggunakan perintah del.
 
-Misalnya, jika Anda memiliki list a dengan elemen-elemen [1, 2, 3, 4, 5, 6] dan ingin menghapus elemen ke-3 (yang bernilai 3), Anda
+Misalnya, jika Anda memiliki list a dengan elemen-elemen [1, 2, 3, 4, 5, 6] dan ingin menghapus elemen ke-2 (yang bernilai 2), Anda
 
-dapat menggunakan perintah del a[2]. Setelah perintah ini dijalankan, list a akan menjadi [1, 2, 4, 5, 6].
+dapat menggunakan perintah del a[1]. Setelah perintah ini dijalankan, list a akan menjadi [1, 2, 4, 5, 6].
 
 Anda juga dapat menggunakan perintah remove untuk menghapus elemen pertama yang memiliki nilai yang ditentukan. Misalnya, jika 
 
-Anda ingin menghapus semua elemen yang bernilai 3 dari list a, Anda dapat menggunakan perintah a.remove(3).
+Anda ingin menghapus semua elemen yang bernilai 2 dari list a, Anda dapat menggunakan perintah a.remove(2).
 
 Jika Anda ingin menghapus semua elemen dari list, Anda dapat menggunakan perintah clear. Misalnya, a.clear() akan menghapus semua 
 
