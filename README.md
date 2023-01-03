@@ -2,114 +2,71 @@
 
 # Membuat program menggunakan __init__
 
-langkah pembuatan list sama  dengan inisialisasi variabel biasa pada python
 
-Namun isi yang diberikan pada variabel ini berupa daftar
-
-yang diawali dengan simbol "[dan diakhiri dengan ]"
-
-![Screenshot (228)](https://user-images.githubusercontent.com/115479895/210265634-c5d392b7-03d3-4c67-a6b5-1005916d4dab.png)
-
-selanjutkan setelah kita menambahkan isi list
-
-pada bahasa pemrograman python terdapat beberapa cara untuk
-
-menambahkan data.
+program menggunakan init ialah program yang berisi daftar list
 
 contoh:
 
-![Screenshot (230)](https://user-images.githubusercontent.com/115479895/210266229-d3be9703-2127-458f-87bb-8bc6329c7163.png)
+list = [item]
 
+list = [item2]
 
-# List Append.
+data = {'nama' : [], 'nilai' : []}
 
-dan setelah itu kita membuat namalist.append untuk
+lalu kita membuat program method yg berisi modul daftar_nilai
 
-melakukan perubahan data(Data_yang_akan_ditambahkan)
-
-Dengan menggunakan append kita dapat menambahkan data kedalam
-
-list pada posisi setelah indeks terakhir  pada list.
-
-        self.nama = nama
-
-        list_nama.append(self.nama)
-        
-        self.nim = nim
-        
-        list_nim.append(self.nim)
-        
-        self.study = study
-        
-        list_study.append(self.study)
-        
-        self.uts = uts
-        
-        list_uts.append(self.uts)
-        
-        self.uas = uas
-        
-        list_uas.append(self.uas)
-        
-        self.ipk = ipk
-        
-        list_ipk.append(self.ipk)
-        
- # Pencarian data
+ dan modul view_nilai
  
- pencarian data program data yang telah kita buat
+ kita bisa mengimportkan modul yang berisi daftar nilai seperti ini
  
- lalu kita melakukan pencarian pada data tersebut,
+ from model import daftar_nilai
  
- dengan cara memakai kode tersebut. 
+ lalu kita importkan lagi view nilai
  
- contoh:
+ from view import view_nilai
  
- ![Screenshot (229)](https://user-images.githubusercontent.com/115479895/210267210-8d0ca358-4610-4150-bc1e-0faeeaee2432.png)
+ kita membuat program sistem perulangan dengan menggunakan.
+ 
+ while True:
+ 
+ lalu kita membuat keys.
+ 
+ print("[ (l)ihat , (t)ambah, (c)ari (u)bah, (h)apus, (k)eluar ] \n")
+ 
+ 
+ contoh program:
+ 
+ ![Screenshot (239)](https://user-images.githubusercontent.com/115479895/210337965-daef2453-11cc-474c-a233-7cd28bb9edc1.png)
+ 
+ setelah kita membuat keys ya lalu kita inputkan daftar nilai kedalem modul yg kita buat
+ 
+ modul daftar_nilai yang telah kita buat lalu kita masukkan fungsi itu kedalamnya
+ 
+ 
+oke tapi sebelum itu kita membuat view_nilai seperti modul yg perna kita buat
 
-Tujuan melakukan pencarian data ialah agar data yan telah dibuat bisa berjalan
+yang pertama kita harus menginstall pip tabulate seperti ini
 
-# Menampilkan data
+![Screenshot (242)](https://user-images.githubusercontent.com/115479895/210338590-352809cb-411f-4358-9403-453bc5d213e7.png)
 
-lalu kita buat fungsi menampilkan data
+setelah pip tabulate terinstall kita membuat modul
 
-setelah melakukan pencarian data tersebut agar data itu
+yang berisi
 
-masuk kedalam semua fungsi yang telah kita buat
+from tabulate import tabulate
 
-Contoh:
+lalu kita eksekusikan dengan code tersebut
 
-![Screenshot (231)](https://user-images.githubusercontent.com/115479895/210267828-18a4c920-f989-4cdc-a784-4afd1d39e014.png)
+![Screenshot (243)](https://user-images.githubusercontent.com/115479895/210338907-f6cd00bd-8257-42be-9372-9df1f054b7ac.png)
 
-Hasilnya:
+dan setelah semuanya jadi lalu sekarang kita lihat
 
-![Screenshot (223)](https://user-images.githubusercontent.com/115479895/210267943-f1799de0-952a-4837-a998-379074f1e91b.png)
+hasilnya
 
-# Delete data
+![Screenshot (238)](https://user-images.githubusercontent.com/115479895/210339007-b44dd8f6-d3c9-4a20-a598-0518a81ffe96.png)
 
-Untuk menghapus data dari sebuah list di Python, Anda dapat menggunakan perintah del.
+oke cukup sekian dari saya link diyutubnya nanti nyusul yaa saya aplod disini.
 
-Misalnya, jika Anda memiliki list a dengan elemen-elemen [1, 2, 3, 4, 5, 6] dan ingin menghapus elemen ke-2 (yang bernilai 2), Anda
-
-dapat menggunakan perintah del a[1]. Setelah perintah ini dijalankan, list a akan menjadi [1, 3, 4, 5, 6].
-
-Anda juga dapat menggunakan perintah remove untuk menghapus elemen pertama yang memiliki nilai yang ditentukan. Misalnya, jika 
-
-Anda ingin menghapus semua elemen yang bernilai 2 dari list a, Anda dapat menggunakan perintah a.remove(2).
-
-Jika Anda ingin menghapus semua elemen dari list, Anda dapat menggunakan perintah clear. Misalnya, a.clear() akan menghapus semua 
-
-elemen dari list a, sehingga menjadikannya list kosong.
-
-contoh:
-
-![Screenshot (234)](https://user-images.githubusercontent.com/115479895/210268365-040329ce-9ac6-4613-b91c-90c90e60b6bd.png)
-
-Contoh seperti yang diatas tersebut ialah menghapus elemen Nim
-
-Mungkin itu saja sekian dari saya jika ada kesalahan mohon dimaafkan
-
-konten diyutub nyaa nanti nyusul yaaa Thankyou!
+ThankYou!
 
 
-        
