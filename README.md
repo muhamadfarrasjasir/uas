@@ -67,6 +67,8 @@ hasilnya
 
 oke cukup sekian dari saya link diyutubnya nanti nyusul yaa saya aplod disini.
 
+https://youtu.be/4ooaXS7lsvg
+
 ThankYou!
 
 
