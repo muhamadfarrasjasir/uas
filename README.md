@@ -61,10 +61,20 @@ lalu kita eksekusikan dengan code tersebut
 
 dan setelah semuanya jadi lalu sekarang kita lihat
 
-hasilnya
+hasil tambah data dan ubah data
 
-![Screenshot (238)](https://user-images.githubusercontent.com/115479895/210339007-b44dd8f6-d3c9-4a20-a598-0518a81ffe96.png)
+![Screenshot (259)](https://user-images.githubusercontent.com/115479895/211127257-a3a3aa42-4d56-4dd4-9183-df25e374569a.png)
 
+![Screenshot (260)](https://user-images.githubusercontent.com/115479895/211127286-c4013797-ef93-488f-8a71-03716f2d4b05.png)
+
+hasil lihat data hapus data dan keluar
+
+![Screenshot (258)](https://user-images.githubusercontent.com/115479895/211127312-a0ec167b-6901-4b2b-b291-8fe71f0b03cf.png)
+
+
+
+
+hasil
 oke cukup sekian dari saya link diyutubnya nanti nyusul yaa saya aplod disini.
 
 https://youtu.be/4ooaXS7lsvg
