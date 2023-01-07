@@ -1,5 +1,7 @@
 # uas
 
+# https://youtu.be/4ooaXS7lsvg
+
 # Membuat program menggunakan __init__
 
 
